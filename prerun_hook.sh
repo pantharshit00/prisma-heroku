@@ -15,4 +15,5 @@ databases:
     user: ${DB_USER}
     password: ${DB_PASSWORD}
     migrations: true
+    ssl: true
 " >> ${PRISMA_CONFIG_PATH}
